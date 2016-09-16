@@ -4,6 +4,8 @@ A space station 13 based version of the game rimworld (http://rimworldgame.com/)
 
 We do not claim ownership of rimworld, or affiliation with anyone involved, this is simply a fan based version using a /tgstation fork.
 
+As mentioned above, code is originally based on [tgstation](https://github.com/tgstation/tgstation) codebase.
+
 
 
 #Contribution
@@ -13,7 +15,7 @@ If you wish to contribute to our project, please contact the project manager , b
 
 #Usage
 
-As of now, we're closed source until we get up and running and work out a licence
+As of now, we're using same license as tg code does, until we figure everything out.
 
 
 #Coding standards
