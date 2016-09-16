@@ -900,13 +900,33 @@
 	name = "granite"
 	desc = "Rock that is granite."
 	icon = 'icons/turf/smoothrocks.dmi'	//temporary placeholder icon
+	baseturf = /turf/open/floor/plating/asteroid/airless/granite
 
 /turf/closed/mineral/marble
 	name = "marble"
 	desc = "Rock that is marble."
 	icon = 'icons/turf/smoothrocks.dmi'
+	baseturf = /turf/open/floor/plating/asteroid/airless/marble
 
 /turf/closed/mineral/limestone
 	name = "limestone"
 	desc = "Really nice piece of limestone."
 	icon = 'icons/turf/smoothrocks.dmi'	//also temporary, like others.
+	baseturf = /turf/open/floor/plating/asteroid/airless/limestone
+
+// Rock floors
+
+/turf/open/floor/plating/asteroid/airless/granite
+	name = "granite"
+	desc = "Rock that is granite."
+	baseturf = /turf/open/floor/plating/asteroid/airless/granite
+
+/turf/open/floor/plating/asteroid/airless/marble
+	name = "marble"
+	desc = "Rock that is marble."
+	baseturf = /turf/open/floor/plating/asteroid/airless/marble
+
+/turf/open/floor/plating/asteroid/airless/limestone
+	name = "limestone"
+	desc = "Really nice piece of limestone."
+	baseturf = /turf/open/floor/plating/asteroid/airless/limestone
