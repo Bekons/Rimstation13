@@ -10,7 +10,7 @@ As mentioned above, code is originally based on [tgstation](https://github.com/t
 
 #Contribution
 
-If you wish to contribute to our project, please contact the project manager , bekons via steam at: http://steamcommunity.com/id/SomeBekons
+If you wish to contribute to our project, please contact the project manager, bekons via steam at: http://steamcommunity.com/id/SomeBekons
 
 
 #Usage
