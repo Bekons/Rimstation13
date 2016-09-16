@@ -893,3 +893,20 @@
 	..()
 	if(prob(12))
 		icon_state = "necro[rand(2,3)]"
+
+//Rock types (RimWorld based)
+
+/turf/closed/mineral/granite
+	name = "granite"
+	desc = "Rock that is granite."
+	icon = 'icons/turf/smoothrocks.dmi'	//temporary placeholder icon
+
+/turf/closed/mineral/marble
+	name = "marble"
+	desc = "Rock that is marble."
+	icon = 'icons/turf/smoothrocks.dmi'
+
+/turf/closed/mineral/limestone
+	name = "limestone"
+	desc = "Really nice piece of limestone."
+	icon = 'icons/turf/smoothrocks.dmi'	//also temporary, like others.
