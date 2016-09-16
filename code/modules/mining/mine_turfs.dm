@@ -98,18 +98,25 @@
 	mineralChance = 6
 	mineralSpawnChanceList = list(
 		/turf/closed/mineral/uranium = 2, /turf/closed/mineral/diamond = 1, /turf/closed/mineral/gold = 4, /turf/closed/mineral/titanium = 4,
-		/turf/closed/mineral/silver = 6, /turf/closed/mineral/plasma = 15, /turf/closed/mineral/iron = 40,
-		/turf/closed/mineral/gibtonite = 2, /turf/closed/mineral/bscrystal = 1)
+		/turf/closed/mineral/silver = 6, /turf/closed/mineral/plasma = 15, /turf/closed/mineral/iron = 35,
+		/turf/closed/mineral/gibtonite = 2, /turf/closed/mineral/bscrystal = 1,
+		/turf/closed/mineral/plasteel = 5)
 
 /turf/closed/mineral/random/low_chance/New()
 	icon_state = "rock"
 	..()
 
-/turf/closed/mineral/iron
-	mineralType = /obj/item/weapon/ore/iron
+/turf/closed/mineral/iron // aka steel
+	mineralType = /obj/item/weapon/ore/steel
 	spreadChance = 20
 	spread = 1
 	scan_state = "rock_Iron"
+
+/turf/closed/mineral/plasteel
+	mineralType = /obj/item/weapon/ore/plasteel
+	spreadChance = 20
+	spread = 1
+	scan_state = "rock_Iron" //temp
 
 /turf/closed/mineral/uranium
 	mineralType = /obj/item/weapon/ore/uranium

@@ -396,3 +396,17 @@
 			user.visible_message("[user] has flipped [src]. It lands on [coinflip].", \
  							 "<span class='notice'>You flip [src]. It lands on [coinflip].</span>", \
 							 "<span class='italics'>You hear the clattering of loose change.</span>")
+
+/obj/item/weapon/ore/steel
+	name = "steel"
+	icon_state = "Iron ore"
+	origin_tech = "materials=1"
+	points = 1
+	materials = list(MAT_METAL=MINERAL_MATERIAL_AMOUNT)
+
+/obj/item/weapon/ore/plasteel
+	name = "plasteel"
+	icon_state = "Iron ore"
+	origin_tech = "materials=3"
+	points = 5
+	materials = list(MAT_METAL=MINERAL_MATERIAL_AMOUNT)
