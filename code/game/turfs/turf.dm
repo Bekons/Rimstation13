@@ -3,7 +3,8 @@
 	level = 1
 
 	var/intact = 1
-	var/turf/baseturf = /turf/open/space
+	var/turf/baseturf = /turf/open/floor/plating/ashplanet/rocky/baserock
+	// ^^ Might have to fix this up later.
 
 	var/temperature = T20C
 	var/to_be_destroyed = 0 //Used for fire, if a melting temperature was reached, it will be destroyed

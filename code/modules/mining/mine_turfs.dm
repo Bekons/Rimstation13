@@ -940,3 +940,11 @@
 	name = "limestone"
 	desc = "Really nice piece of limestone."
 	baseturf = /turf/open/floor/plating/asteroid/airless/limestone
+
+// This is going to be default baseturf instead of space
+
+/turf/open/floor/plating/ashplanet/rocky/baserock
+	name = "rock ground"
+	desc = "A rock. its pretty hard, most of the mining equipment can't break it."
+	icon_state = "rockyash"
+	smooth_icon = 'icons/turf/floors/rocky_ash.dmi'
